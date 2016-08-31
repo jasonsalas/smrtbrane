@@ -19,7 +19,7 @@ np.random.seed(1)
 # initialize weights randomly with mean '0'
 syn0 = 2 * np.random.random((3,1)) - 1
 
-for iter in xrange(1000):
+for iter in xrange(10000):
 
 	# forward propagation
 	l0 = X
